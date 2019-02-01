@@ -1,0 +1,26 @@
+<result name="2019-02-01_15-26-54-833__sa9_UV1" type="result">
+  <params />
+  <results>
+    <result filename="sa9_UV1\sa9_UV1.log" name="sa9_UV1" status="Complete" type="test">
+      <params />
+      <results>
+        <result filename="sa9_UV1\vrt_rms_all_100.csv" name="vrt_rms_all_100.csv" type="file">
+          <params>
+            <param name="plot.y2.points" type="string">AC_IRMS_1, AC_IRMS_MIN</param>
+            <param name="plot.y.points" type="string">AC_VRMS_1</param>
+            <param name="plot.y2.title" type="string">Current (A)</param>
+            <param name="plot.x.points" type="string">TIME</param>
+            <param name="plot.x.title" type="string">Time (secs)</param>
+            <param name="plot.y.title" type="string">Voltage (V)</param>
+            <param name="plot.title" type="string">vrt_rms_all_100</param>
+          </params>
+          <results />
+        </result>
+        <result filename="sa9_UV1\sa9_UV1.xlsx" name="sa9_UV1.xlsx" type="file">
+          <params />
+          <results />
+        </result>
+      </results>
+    </result>
+  </results>
+</result>

@@ -1,0 +1,30 @@
+<result name="2019-02-01_15-47-05-965__sa9_trip_time_UV3" type="result">
+  <params />
+  <results>
+    <result filename="sa9_trip_time_UV3\sa9_trip_time_UV3.log" name="sa9_trip_time_UV3" status="Complete" type="test">
+      <params />
+      <results>
+        <result filename="sa9_trip_time_UV3\result_summary.csv" name="result_summary.csv" type="file">
+          <params />
+          <results />
+        </result>
+        <result filename="sa9_trip_time_UV3\voltage_trip_p1_1.csv" name="voltage_trip_p1_1.csv" type="file">
+          <params>
+            <param name="plot.y2.title" type="string">I1</param>
+            <param name="plot.y2.points" type="string">I1</param>
+            <param name="plot.x.points" type="string">TIME</param>
+            <param name="plot.x.title" type="string">Time (sec)</param>
+            <param name="plot.y.title" type="string">U1</param>
+            <param name="plot.y.points" type="string">U1</param>
+            <param name="plot.title" type="string">voltage_trip_p1_1.csv test</param>
+          </params>
+          <results />
+        </result>
+        <result filename="sa9_trip_time_UV3\sa9_trip_time_UV3.xlsx" name="sa9_trip_time_UV3.xlsx" type="file">
+          <params />
+          <results />
+        </result>
+      </results>
+    </result>
+  </results>
+</result>

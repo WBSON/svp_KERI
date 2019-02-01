@@ -1,0 +1,6 @@
+<suite globals="False" name="pv_comm">
+  <members>
+    <member name="pv_on.tst" />
+  </members>
+  <params />
+</suite>

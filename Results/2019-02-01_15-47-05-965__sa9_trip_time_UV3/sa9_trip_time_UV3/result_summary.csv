@@ -1,0 +1,2 @@
+Result, Test Name, t_trip, t_trip_meas, Dataset File
+Fail, sa9_trip_time_UV3, 1.5, 1.52, voltage_trip_p1_1.csv 

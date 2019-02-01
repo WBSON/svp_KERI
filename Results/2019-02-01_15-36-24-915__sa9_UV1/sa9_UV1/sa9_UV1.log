@@ -1,0 +1,135 @@
+2019-02-01 15:36:26.075  D  
+2019-02-01 15:36:26.075  D  **************  Starting sa9_UV1  **************
+2019-02-01 15:36:26.075  D  Script: SA9_volt_ride_through.py 1.0.0
+2019-02-01 15:36:26.075  I  EUT Parameters:
+2019-02-01 15:36:26.075  I      P_rated = 5000
+2019-02-01 15:36:26.075  I      V_nom = 277.0
+2019-02-01 15:36:26.075  I      Phases = 3-Phase 3-Wire
+2019-02-01 15:36:26.075  I      V_msa = 0.0
+2019-02-01 15:36:26.075  I      T_msa = 0.0
+2019-02-01 15:36:26.075  I      VRT T_dwell = 3
+2019-02-01 15:36:26.075  I  Test Parameters:
+2019-02-01 15:36:26.075  I      Test Label = vrt
+2019-02-01 15:36:26.075  I      Ride-Through Voltage (% of nomimal) = 87.0
+2019-02-01 15:36:26.075  I      Ride-Through Duration (secs) = 20.0
+2019-02-01 15:36:26.075  I      Minimum grid voltage (% of nominal) = 100.0
+2019-02-01 15:36:26.075  I      Maximum grid voltage (% of nominal) = 100.0
+2019-02-01 15:36:26.075  I      Power Level 100% Tests = Enabled
+2019-02-01 15:36:26.075  I      Power Level 20% Tests = Disabled
+2019-02-01 15:36:26.075  I      Number of test repetitions = 1
+2019-02-01 15:36:26.075  I      Operation Mode = Mandatory Operation
+2019-02-01 15:36:26.075  I      All Phase Fault Tests = Enabled
+2019-02-01 15:36:26.075  I      Phase 1 Fault Tests = Enabled
+2019-02-01 15:36:26.075  I      Phase 2 Fault Tests = Disabled
+2019-02-01 15:36:26.075  I      Phase 3 Fault Tests = Disabled
+2019-02-01 15:36:26.075  I  DER Parameters:
+2019-02-01 15:36:26.075  I      DER Mode = SMA
+2019-02-01 15:36:26.075  I      SMA Parameters:
+2019-02-01 15:36:26.075  I          IP Address = 192.168.0.170
+2019-02-01 15:36:26.075  I          IP Port = 502
+2019-02-01 15:36:26.075  I          Slave Id = 3
+2019-02-01 15:36:26.075  I          Configure Grid Guard = True
+2019-02-01 15:36:26.075  I          Grid Guard Number = 3980494444
+2019-02-01 15:36:26.075  I  Data Acquisition (RMS) Parameters:
+2019-02-01 15:36:26.075  I      Mode = Yokogawa WT3000
+2019-02-01 15:36:26.075  I      Yokogawa WT3000 Parameters:
+2019-02-01 15:36:26.075  I          Communications Interface = VISA
+2019-02-01 15:36:26.075  I          visa_id = ASRL1::INSTR
+2019-02-01 15:36:26.075  I          baud_rate = 38400
+2019-02-01 15:36:26.075  I          Sample Interval (ms) = 500
+2019-02-01 15:36:26.075  I          Channel 1 = AC
+2019-02-01 15:36:26.075  I          Channel 2 = AC
+2019-02-01 15:36:26.075  I          Channel 3 = AC
+2019-02-01 15:36:26.075  I          Channel 4 = DC
+2019-02-01 15:36:26.075  I          Channel 1 Label = 1
+2019-02-01 15:36:26.075  I          Channel 2 Label = 2
+2019-02-01 15:36:26.085  I          Channel 3 Label = 3
+2019-02-01 15:36:26.085  I          Channel 4 Label = None
+2019-02-01 15:36:26.085  I  Data Acquisition (Waveform) Parameters:
+2019-02-01 15:36:26.085  I      Mode = Yokogawa WT3000
+2019-02-01 15:36:26.085  I      Yokogawa WT3000 Parameters:
+2019-02-01 15:36:26.085  I          Communications Interface = VISA
+2019-02-01 15:36:26.085  I          visa_id = ASRL1::INSTR
+2019-02-01 15:36:26.085  I          baud_rate = 38400
+2019-02-01 15:36:26.085  I          Sample Interval (ms) = 500
+2019-02-01 15:36:26.085  I          Channel 1 = AC
+2019-02-01 15:36:26.085  I          Channel 2 = AC
+2019-02-01 15:36:26.085  I          Channel 3 = AC
+2019-02-01 15:36:26.085  I          Channel 4 = DC
+2019-02-01 15:36:26.085  I          Channel 1 Label = 1
+2019-02-01 15:36:26.085  I          Channel 2 Label = 2
+2019-02-01 15:36:26.085  I          Channel 3 Label = 3
+2019-02-01 15:36:26.085  I          Channel 4 Label = None
+2019-02-01 15:36:26.085  I  Grid Simulator Parameters:
+2019-02-01 15:36:26.085  I      Mode = Chroma
+2019-02-01 15:36:26.085  I      Configure grid simulator at beginning of test = Enabled
+2019-02-01 15:36:26.085  I      Chroma Parameters:
+2019-02-01 15:36:26.085  I          Phases = 3
+2019-02-01 15:36:26.085  I          Max voltage for all phases = 300
+2019-02-01 15:36:26.085  I          Max Voltage = 299.0
+2019-02-01 15:36:26.085  I          Max Current = 75.0
+2019-02-01 15:36:26.085  I          Frequency = 60.0
+2019-02-01 15:36:26.085  I          Communications Interface = VISA
+2019-02-01 15:36:26.265  I          VISA Device String = TCPIP::192.168.0.10::2101::SOCKET
+2019-02-01 15:36:26.265  I          VISA Path = C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/agbin/visa32.dll
+2019-02-01 15:36:26.265  I          Baud Rate = 19200
+2019-02-01 15:36:26.265  I  Load Simulator Parameters:
+2019-02-01 15:36:26.265  I      Mode = Disabled
+2019-02-01 15:36:26.265  I  PV Simulator Parameters:
+2019-02-01 15:36:26.265  I      Mode = Chroma
+2019-02-01 15:36:26.265  I      Chroma Parameters:
+2019-02-01 15:36:26.265  I          Communications Interface = VISA
+2019-02-01 15:36:26.465  I          VISA Device String = TCPIP::192.168.0.11::2101::SOCKET
+2019-02-01 15:36:26.465  I          Baud Rate = 115200
+2019-02-01 15:36:26.465  I          VISA Driver Path = C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/agbin/visa32.dll
+2019-02-01 15:36:26.465  I          MPP Power (W) = 4995.97
+2019-02-01 15:36:26.475  I          MPP Voltage (V) = 448.27
+2019-02-01 15:36:26.475  I          Open Circuit Voltage (V) = 562.02
+2019-02-01 15:36:26.475  I          Short Circuit Current (I) = 12.346
+2019-02-01 15:36:26.515  I  Turning on grid simulator.
+2019-02-01 15:36:26.655  I  Grid simulator model: Chroma ATE,61860,000095,00.56 Oct 30 2014
+2019-02-01 15:36:26.665  I  Grid sim regenerative mode is: on
+2019-02-01 15:36:26.735  I  299.0
+2019-02-01 15:36:26.735  I  Grid sim max voltage settings: v1 = 299.0, v2 = 299.0, v3 = 299.0
+2019-02-01 15:36:26.735  I  Grid sim max current: 75.0 Amps
+2019-02-01 15:36:26.735  I  here??
+2019-02-01 15:36:26.735  D  comm : VISA
+2019-02-01 15:36:26.735  D  visa path : C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/agbin/visa32.dll
+2019-02-01 15:36:26.735  D  baud rate : 115200
+2019-02-01 15:36:27.765  W  Requested power > Pmp so irradiance will be > 1000 W/m^2)
+2019-02-01 15:36:27.775  I  chroma irradiance changed to 1000.81
+2019-02-01 15:36:27.855  I  chroma channel turned on
+2019-02-01 15:36:30.085  I  DAS RMS device: YOKOGAWA,760304-04-MV,0,F6.21
+
+2019-02-01 15:36:32.155  I  DAS Waveform device: YOKOGAWA,760304-04-MV,0,F6.21
+
+2019-02-01 15:36:32.245  I  Grid Guard is already set
+2019-02-01 15:36:32.245  I  Grid Guard Code Accepted.
+2019-02-01 15:36:32.395  W  Requested power > Pmp so irradiance will be > 1000 W/m^2)
+2019-02-01 15:36:32.415  I  chroma irradiance changed to 1000.81
+2019-02-01 15:36:32.415  I  Setting power level to 100.0% of rated
+2019-02-01 15:36:32.415  I  Starting RMS data capture
+2019-02-01 15:36:32.425  I  Waiting 5 seconds to start test
+2019-02-01 15:36:37.545  I  Starting All Phase Fault Test, v1 = 87.0%  v2 = 87.0%  v3 = 87.0%
+2019-02-01 15:36:37.545  I  Test duration is 26.0 seconds
+2019-02-01 15:36:41.055  I  Setting voltage: v_1 = 277.0  v_2 = 277.0  v_3 = 277.0 for 3 seconds
+2019-02-01 15:36:44.545  I  1549003004.55
+2019-02-01 15:36:44.605  I  Setting voltage: v_1 = 240.99  v_2 = 240.99  v_3 = 240.99 for 20.0 seconds
+2019-02-01 15:37:05.065  I  Setting voltage: v_1 = 277.0  v_2 = 277.0  v_3 = 277.0 for 3 seconds
+2019-02-01 15:37:08.745  I  Saving data capture vrt_rms_all_100.csv
+2019-02-01 15:37:08.745  I  [25]
+2019-02-01 15:37:08.745  I  pass
+2019-02-01 15:37:08.745  I  Starting RMS data capture
+2019-02-01 15:37:08.745  I  Waiting 5 seconds to start test
+2019-02-01 15:37:13.865  I  Starting Phase 1 Fault Test, v1 = 87.0%  v2 = 100.0%  v3 = 100.0%
+2019-02-01 15:37:13.865  I  Test duration is 26.0 seconds
+2019-02-01 15:37:17.385  I  Setting voltage: v_1 = 277.0  v_2 = 277.0  v_3 = 277.0 for 3 seconds
+2019-02-01 15:37:20.865  I  1549003040.87
+2019-02-01 15:37:20.945  I  Setting voltage: v_1 = 240.99  v_2 = 277.0  v_3 = 277.0 for 20.0 seconds
+2019-02-01 15:37:41.385  I  Setting voltage: v_1 = 277.0  v_2 = 277.0  v_3 = 277.0 for 3 seconds
+2019-02-01 15:37:45.065  I  Saving data capture vrt_rms_p1_100.csv
+2019-02-01 15:37:45.065  I  [25]
+2019-02-01 15:37:45.065  I  pass
+2019-02-01 15:37:45.085  W  Requested power > Pmp so irradiance will be > 1000 W/m^2)
+2019-02-01 15:37:45.105  I  chroma irradiance changed to 1000.81
+2019-02-01 15:37:46.415  I  Test result - Complete
