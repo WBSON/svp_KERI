@@ -1,0 +1,114 @@
+<result name="2019-02-01_17-24-02-131__sa12_0" type="result">
+  <params />
+  <results>
+    <result filename="sa12_0\sa12_0.log" name="sa12_0" status="Complete" type="test">
+      <params />
+      <results>
+        <result filename="sa12_0\result_summary.csv" name="result_summary.csv" type="file">
+          <params />
+          <results />
+        </result>
+        <result filename="sa12_0\spf_1000_800.0_100_1.csv" name="spf_1000_800.0_100_1.csv" type="file">
+          <params />
+          <results />
+        </result>
+        <result filename="sa12_0\spf_800.0_100_1.csv" name="spf_800.0_100_1.csv" type="file">
+          <params>
+            <param name="plot.y2.points" type="string">AC_IRMS_1</param>
+            <param name="plot.y.points" type="string">AC_PF_1, PF_TARGET</param>
+            <param name="plot.y2.title" type="string">Current (A)</param>
+            <param name="plot.y.title" type="string">Power Factor</param>
+            <param name="plot.x.points" type="string">TIME</param>
+            <param name="plot.x.title" type="string">Time (sec)</param>
+            <param name="plot.title" type="string">spf_800.0_100_1</param>
+          </params>
+          <results />
+        </result>
+        <result filename="sa12_0\spf_1000_800.0_100_2.csv" name="spf_1000_800.0_100_2.csv" type="file">
+          <params />
+          <results />
+        </result>
+        <result filename="sa12_0\spf_800.0_100_2.csv" name="spf_800.0_100_2.csv" type="file">
+          <params>
+            <param name="plot.y2.points" type="string">AC_IRMS_1</param>
+            <param name="plot.y.points" type="string">AC_PF_1, PF_TARGET</param>
+            <param name="plot.y2.title" type="string">Current (A)</param>
+            <param name="plot.y.title" type="string">Power Factor</param>
+            <param name="plot.x.points" type="string">TIME</param>
+            <param name="plot.x.title" type="string">Time (sec)</param>
+            <param name="plot.title" type="string">spf_800.0_100_2</param>
+          </params>
+          <results />
+        </result>
+        <result filename="sa12_0\spf_1000_800.0_100_3.csv" name="spf_1000_800.0_100_3.csv" type="file">
+          <params />
+          <results />
+        </result>
+        <result filename="sa12_0\spf_800.0_100_3.csv" name="spf_800.0_100_3.csv" type="file">
+          <params>
+            <param name="plot.y2.points" type="string">AC_IRMS_1</param>
+            <param name="plot.y.points" type="string">AC_PF_1, PF_TARGET</param>
+            <param name="plot.y2.title" type="string">Current (A)</param>
+            <param name="plot.y.title" type="string">Power Factor</param>
+            <param name="plot.x.points" type="string">TIME</param>
+            <param name="plot.x.title" type="string">Time (sec)</param>
+            <param name="plot.title" type="string">spf_800.0_100_3</param>
+          </params>
+          <results />
+        </result>
+        <result filename="sa12_0\spf_1000_-800.0_100_1.csv" name="spf_1000_-800.0_100_1.csv" type="file">
+          <params />
+          <results />
+        </result>
+        <result filename="sa12_0\spf_-800.0_100_1.csv" name="spf_-800.0_100_1.csv" type="file">
+          <params>
+            <param name="plot.y2.points" type="string">AC_IRMS_1</param>
+            <param name="plot.y.points" type="string">AC_PF_1, PF_TARGET</param>
+            <param name="plot.y2.title" type="string">Current (A)</param>
+            <param name="plot.y.title" type="string">Power Factor</param>
+            <param name="plot.x.points" type="string">TIME</param>
+            <param name="plot.x.title" type="string">Time (sec)</param>
+            <param name="plot.title" type="string">spf_-800.0_100_1</param>
+          </params>
+          <results />
+        </result>
+        <result filename="sa12_0\spf_1000_-800.0_100_2.csv" name="spf_1000_-800.0_100_2.csv" type="file">
+          <params />
+          <results />
+        </result>
+        <result filename="sa12_0\spf_-800.0_100_2.csv" name="spf_-800.0_100_2.csv" type="file">
+          <params>
+            <param name="plot.y2.points" type="string">AC_IRMS_1</param>
+            <param name="plot.y.points" type="string">AC_PF_1, PF_TARGET</param>
+            <param name="plot.y2.title" type="string">Current (A)</param>
+            <param name="plot.y.title" type="string">Power Factor</param>
+            <param name="plot.x.points" type="string">TIME</param>
+            <param name="plot.x.title" type="string">Time (sec)</param>
+            <param name="plot.title" type="string">spf_-800.0_100_2</param>
+          </params>
+          <results />
+        </result>
+        <result filename="sa12_0\spf_1000_-800.0_100_3.csv" name="spf_1000_-800.0_100_3.csv" type="file">
+          <params />
+          <results />
+        </result>
+        <result filename="sa12_0\spf_-800.0_100_3.csv" name="spf_-800.0_100_3.csv" type="file">
+          <params>
+            <param name="plot.y2.points" type="string">AC_IRMS_1</param>
+            <param name="plot.y.points" type="string">AC_PF_1, PF_TARGET</param>
+            <param name="plot.y2.title" type="string">Current (A)</param>
+            <param name="plot.y.title" type="string">Power Factor</param>
+            <param name="plot.x.points" type="string">TIME</param>
+            <param name="plot.x.title" type="string">Time (sec)</param>
+            <param name="plot.title" type="string">spf_-800.0_100_3</param>
+          </params>
+          <results />
+        </result>
+        <result filename="sa12_0\sa12_0.xlsx" name="sa12_0.xlsx" type="file">
+          <params />
+          <results />
+        </result>
+      </results>
+    </result>
+  </results>
+</result>
